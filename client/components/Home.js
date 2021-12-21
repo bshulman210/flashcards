@@ -15,6 +15,7 @@ export const Home = (props) => {
       <h3>Your sets</h3>
       <div>
         <img src="https://static.thenounproject.com/png/4767-200.png" />
+        <h4>Set Name</h4>
       </div>
     </div>
   );
