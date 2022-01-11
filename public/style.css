@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   font-family: sans-serif;
 }
 
@@ -13,9 +14,25 @@ label {
 nav a {
   display: inline-block;
   margin: 1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
 }
 
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+.main {
+  background-color: whitesmoke;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  border: 5px solid cornflowerblue;
+  padding: 10px;
+  margin-top: 30px;
 }
